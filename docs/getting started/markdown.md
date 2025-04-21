@@ -1,6 +1,9 @@
 ---
 title: Markdown Cheatsheet
 sidebar_position: 1
+description: Have a quick glance to refresh markdown syntax
+toc_min_heading_level: 2
+toc_max_heading_level: 2
 ---
 
 # Markdown Cheatsheet
@@ -9,17 +12,17 @@ sidebar_position: 1
 
 ## Headings
 
-#Heading 1
+# Heading 1
 
 ##Heading 2
 
-###Heading 3
+### Heading 3
 
-####Heading 4
+#### Heading 4
 
-#####Heading 5
+##### Heading 5
 
-######Heading 6
+###### Heading 6
 
 ---
 
