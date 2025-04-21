@@ -1,3 +1,11 @@
+---
+title: Semantic HTML
+sidebar_position: 1
+description: Semantic tags in HTML
+toc_min_heading_level: 2
+toc_max_heading_level: 3
+---
+
 # Semantic HTML
 
 ## Definition
