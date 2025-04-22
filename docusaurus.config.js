@@ -24,6 +24,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "sudirkrishnaars", // Usually your GitHub org/user name.
   projectName: "sudir-logs", // Usually your repo name.
+  trailingSlash: false,
   deploymentBranch: "gh-pages",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
