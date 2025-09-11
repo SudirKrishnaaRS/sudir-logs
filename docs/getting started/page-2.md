@@ -1,6 +1,9 @@
 ---
-title: Pge 2
+title: Local develeopment Setup
 sidebar_position: 1
 ---
 
-# Page 2
+# Local develeopment Setup
+
+- Step 1: `npm install`
+- Step 2: `npm start`
