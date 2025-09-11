@@ -1,4 +1,4 @@
-# NodeJS Course
+# NodeJS Course Info
 
 ## Udemy Course: Node.js- Beginner to Advance course with projects
 
