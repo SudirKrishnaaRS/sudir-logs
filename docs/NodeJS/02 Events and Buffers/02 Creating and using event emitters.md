@@ -127,29 +127,37 @@ Hola Node.js
 ## Scenario 4: Using EventEmitter with Classes
 
 ```js
-const EventEmitter = require("events");
+const EventEmitter = require("node:events");
 
-class Chat extends EventEmitter {
-  sendMessage(message) {
-    console.log(`Message sent: ${message}`);
-    this.emit("messageReceived", message);
+class Greet extends EventEmitter {
+  constructor() {
+    super();
+
+    // Register event listeners inside constructor
+    this.on("greet", (name) => {
+      console.log(`Hello, ${name}`);
+    });
+
+    this.on("greet", () => {
+      console.log("Thanks for your visit");
+    });
+  }
+
+  // Method to emit the event
+  sendMessage(name) {
+    this.emit("greet", name);
   }
 }
 
-const chat = new Chat();
-
-chat.on("messageReceived", (msg) => {
-  console.log(`New message: ${msg}`);
-});
-
-chat.sendMessage("Hello Sudir");
+const visitorGreet = new Greet();
+visitorGreet.sendMessage("Sudir");
 ```
 
 **Output:**
 
 ```
-Message sent: Hello Sudir
-New message: Hello Sudir
+Hello, Sudir
+Thanks for your visit
 ```
 
 ---
