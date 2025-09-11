@@ -1,3 +1,7 @@
+---
+title: 📘 Events in NodeJS
+---
+
 # 📘 What Are Events in Node.js and Why Are They Important?
 
 > Section 3 : Vid 24
