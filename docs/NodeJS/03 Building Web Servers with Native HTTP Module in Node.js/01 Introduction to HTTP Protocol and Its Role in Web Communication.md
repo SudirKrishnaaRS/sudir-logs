@@ -1,4 +1,4 @@
-# 📘 Introduction to HTTP Protocol and Its Role in Web Communication
+# 📘 Introduction to HTTP Protocol and it's role in Web Communication
 
 > Section 4 : Vid 29
 
@@ -7,6 +7,8 @@
 - **HTTP (HyperText Transfer Protocol)** → a **protocol for transferring data** over the internet.
 - Defines **how clients and servers communicate**.
 - Every web interaction—like opening a webpage, submitting a form, or calling an API—happens over HTTP.
+
+![HTTP Protocol](/img/nodejs/http-protocol.png)
 
 ## Client–Server Model
 
